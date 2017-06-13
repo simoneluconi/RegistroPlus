@@ -1,0 +1,44 @@
+@import url(//fonts.googleapis.com/css?family=Kite+One|Ubuntu|Open+Sans);
+
+.media_rosso
+{
+  color:red;
+  display: inline;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Open Sans";
+}
+.media_arancione
+{
+  color:orange;
+  display: inline;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Open Sans";
+}
+.media_verde
+{
+  color:green;
+  display: inline;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Open Sans";
+}
+.media_blu
+{
+  color:blue;
+  display: inline;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Open Sans";
+}
+
+.periodo
+{
+  color:grey;
+  display: inline;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0px;
+  font-family: "Open Sans";
+}
