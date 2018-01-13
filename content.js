@@ -47,10 +47,12 @@ for (var j = 0; j < items.length; j++) {
       if (mediaP1 > 0 || mediaP2 > 0)
       {
               mediaG1.media += parseFloat(mediaP1);
-              mediaG1.nMaterie++;
+              if (mediaP1 > 0)
+                  mediaG1.nMaterie++;
 
               mediaG2.media += parseFloat(mediaP2);
-              mediaG2.nMaterie++;
+              if (mediaP2 > 0)
+                  mediaG2.nMaterie++;
 
               var html = "<br>";
 
